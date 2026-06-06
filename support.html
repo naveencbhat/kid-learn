@@ -1,14 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Support</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Support</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: white;
+      padding: 40px;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: auto;
+      background: rgba(255,255,255,0.08);
+      padding: 30px;
+      border-radius: 16px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    .box {
+      margin-top: 20px;
+      padding: 15px;
+      background: rgba(255,255,255,0.06);
+      border-radius: 12px;
+    }
+
+    a {
+      color: #60a5fa;
+    }
+
+    button {
+      margin-top: 15px;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 10px;
+      background: #3b82f6;
+      color: white;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #2563eb;
+    }
+  </style>
 </head>
+
 <body>
-<h1>Support</h1>
-<p>For support requests, questions, or feedback, please contact:</p>
-<p>Email: support@runav.com</p>
-<p>We will respond as soon as possible.</p>
-<p><a href="index.html">Home</a></p>
+  <div class="container">
+    <h1>🛠 Support</h1>
+    <p>Need help? We’re here for you.</p>
+
+    <div class="box">
+      <h3>📧 Email Support</h3>
+      <p>support@example.com</p>
+    </div>
+
+    <div class="box">
+      <h3>❓ FAQ</h3>
+      <p>Check common issues and setup guides in future updates.</p>
+    </div>
+
+    <div class="box">
+      <h3>🚀 Report a Bug</h3>
+      <p>Tell us what went wrong and we’ll fix it quickly.</p>
+      <button onclick="window.location.href='mailto:support@runav.com'">
+        Contact Support
+      </button>
+    </div>
+  </div>
 </body>
 </html>
